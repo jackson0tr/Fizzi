@@ -3,7 +3,7 @@ import { PrismicNextLink } from "@prismicio/next";
 import clsx from "clsx";
 
 type Props = {
-  buttonLink: LinkField;
+  buttonLink?: LinkField;
   buttonText: string | null;
   className?: string;
 };
